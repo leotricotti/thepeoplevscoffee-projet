@@ -12,7 +12,7 @@
 body {
     min-height: 100%;
     background-color: #fff;
-    font-family: proxima c;
+    font-family: proxima r;
     font-size: 14px;
     line-height: 20px;
     color: #333;
@@ -36,6 +36,10 @@ ul {
 
 li {
     text-decoration: none;
+}
+
+img {
+    width: 100%;
 }
 
 /* Nav */
@@ -71,3 +75,4 @@ li {
     height: 3px;
     margin: 3px;
 }
+
