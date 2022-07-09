@@ -1,1 +1,73 @@
 /* Fonts */
+@font-face {
+    font-family: proxima c;
+    src: url(../fonts/FontsFree-Net-Proxima-Nova-Cond-Light.otf);
+}
+
+@font-face {
+    font-family: proxima r;
+    src: url(../fonts/Proxima\ Nova\ Font.otf);
+}
+
+body {
+    min-height: 100%;
+    background-color: #fff;
+    font-family: proxima c;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+
+/* Resets */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+/* Nav */
+
+.nav-container {
+    width: 100%;
+    height: 80px;
+}
+
+.header-logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 47.19px;
+    height: 52px;
+}
+
+.menu-bars {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 28px 21px 18px;
+}
+
+.bar {
+    background-color: #000;
+    width: 20px;
+    height: 3px;
+    margin: 3px;
+}
