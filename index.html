@@ -23,6 +23,8 @@
     <meta name="keywords" content="coffee van, coffee caravan, cafe van, mobile coffee, mobile coffee van, mobile cafe, mobile expresso martini bar, pop up coffee, pop up coffee van, pop up cafe, pop up espresso martini bar, South Australia coffee van, coffee van South Australia, coffee van Barossa, Barossa coffee van, coffee van Barossa Valley, Barossa Valley coffee van, pop up  café Barossa Valley, Barossa Valley pup up café, Barossa Valley mobile café, mobile café Barossa Valley, Barossa Valley pop up coffee, Pop up coffee Barossa Valley, Barossa Valley espresso martini bar, espresso martini bar Barossa Valley, Barossa Valley pop up espresso martini bar, pop up espresso martini bar Barossa Valley,">
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/a3057acf10.js" crossorigin="anonymous"></script>
+    <!-- Script -->
+    <script defer src="js/index.js"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Tittle -->
@@ -31,16 +33,18 @@
 <body>
     <!-- Header -->
     <header class="header-container">
-        <nav class="nav-container">
+        <div class="header">
             <a href="/" class="header-logo">
                 <img src="img/header/logo-header.png" alt="The People vs Coffee Logo" class="logo">
-            </a>
-            <div class="menu-bars">
+             </a>
+            <div class="nav-toggle">
                 <div class="bar"></div>
                 <div class="bar"></div>
                 <div class="bar"></div>
             </div>
-            <ul class="nav">
+        </div>
+        <nav class="nav-container">
+            <ul class="nav-menu">
                 <li class="nav-item">
                     <a href="#">
                         our services
@@ -74,19 +78,15 @@
         <!-- Banner -->
         <section class="banner">
             <img src="img/banner/banner-logo.png" alt="The People vs Coffee Logo" class="logo-banner">
-        </section>
-        <div class="btn-container">
-            <button class="contact-btn">
+            <div class="btn-container">
                 <a href="tel:0419944845">
                     call now
                 </a>
-            </button>
-            <button class="contact-btn">
                 <a href="mailto:thepeoplevscoffee@gmail.com">
-                    email now   
+                        email now   
                 </a>
-            </button>
-        </div>
+            </div>
+        </section>
         <!-- Welcome -->
         <section class="welcome-container">
             <h1 class="headeing-welcome">
@@ -204,5 +204,6 @@
         </div>
         </footer>
     </main>
+
 </body>
 </html>
