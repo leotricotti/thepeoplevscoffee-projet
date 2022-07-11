@@ -409,7 +409,7 @@ img {
 
 .grid-container {
     display: grid;
-    grid-template: "header" 80px "banner" "welcome" "services";
+    grid-template: "header" 80px "banner" "welcome" "services" "mission";
 }
 
 /* Nav */
@@ -520,7 +520,8 @@ img {
     column-gap: 1rem;
 }
 
-.btn-container a {
+.btn-container a, .services-one a, 
+.services-two a {
     width: 142px;
     height: 44px;
     color: #000;
@@ -569,17 +570,70 @@ img {
     padding: 2rem 1rem;
 }
 
+.services-one, .services-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .services-one img {
     padding: 0 8px;
     border-radius: 1.3rem;
     display: inline-block;
-    object-fit: cover;
-    vertical-align: middle;
 }
 
-.services-one h2 {
+.services-one h2,  .services-two h2 {
     font-size: 1.25rem;
     text-align: center;
     letter-spacing: 2px;
     margin: .5rem 0;
+}
+
+.services-one p, .services-two p {
+  color: #000;
+  font-size: .8rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.services-one a, .services-two a {
+  margin: 1rem 0 3rem 0;
+}
+
+.services-two img {
+    border-radius: 1.3rem;
+    display: inline-block;
+}
+
+.services-two {
+  margin: .5rem 0;
+}
+
+/* Mission */
+
+.mission-container {
+  grid-area: mission;
+  background-image: url(../img/mission/5c51056c619af22ba2909c77_ezgif.com-optimize\ \(9\).gif);
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  z-index: -4;
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 31.25rem;
+  max-height: 43.75rem;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255, .4) 10%, rgba(255,255,255,0.4));
+}
+
+.mission h2 {
+  font-size: .8rem;
+  
 }
