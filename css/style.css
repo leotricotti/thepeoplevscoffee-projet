@@ -409,7 +409,7 @@ img {
 
 .grid-container {
     display: grid;
-    grid-template: "header" 80px "banner" "welcome" "services" "mission" "promise";
+    grid-template: "header" 80px "banner" "welcome" "services" "mission" "promise" "experience";
 }
 
 /* Nav */
@@ -512,7 +512,7 @@ img {
     max-width: 500px;
 }
 
-.btn-container {
+.btn-container, .btn-experience {
     display: grid;
     grid-auto-columns: 1fr;
     grid-template-columns: 1fr 1fr;
@@ -521,7 +521,7 @@ img {
 }
 
 .btn-container a, .services-one a, 
-.services-two a {
+.services-two a, .btn-experience a {
     width: 142px;
     height: 44px;
     color: #000;
@@ -683,7 +683,46 @@ img {
   font-size: .9rem;
 }
 
-
 .animation-item-1, .animation-item-3 {
   display: none;
+}
+
+/* Experience */
+
+.experience-container {
+  grid-area: experience;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(2deg,rgba(0,0,0,.7) 14%,hsla(0,0%,100%,0)), 
+  url(../img/experience/experience-background.jpg);
+  width: 98%;
+  height: 80vh;
+  background-position: 0 0, 50% 100%;
+  background-size: auto, cover;
+  background-attachment: scroll, fixed;
+}
+
+.experience {
+  padding: 0 1rem;
+}
+
+.experience .copy-one, .copy-two {
+  color: #fff;
+  font-size: 1.562rem;
+  padding: 0 1.875rem;
+  margin-bottom: 1.875rem;
+}
+
+.experience .copy-two {
+  font-size: 1.7rem;
+}
+
+.experience p {
+  color: #fff;
+  font-size: .8rem;
+  line-height: 150%;
+  letter-spacing: 1px;
 }
