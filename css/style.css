@@ -409,7 +409,7 @@ img {
 
 .grid-container {
     display: grid;
-    grid-template: "header" 80px "banner" "welcome" "services" "mission" "promise" "experience";
+    grid-template: "header" 80px "banner" "welcome" "services" "mission" "promise" "experience" "back";
 }
 
 /* Nav */
@@ -614,7 +614,7 @@ img {
 
 .mission-container {
   grid-area: mission;
-  background-image: url(../img/mission/5c51056c619af22ba2909c77_ezgif.com-optimize\ \(9\).gif);
+  background-image:  radial-gradient(circle farthest-corner at 50% 50%,hsla(0,0%,100%,.8),hsla(0,0%,100%,.3) 39%,hsla(0,0%,100%,0)), url(../img/mission/5c51056c619af22ba2909c77_ezgif.com-optimize\ \(9\).gif);
   width: 100%;
   background-attachment: fixed;
   background-position: center center;
@@ -630,11 +630,7 @@ img {
   width: 100%;
   height: 31.25rem;
   max-height: 43.75rem;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+97&1+1,0+35,0+35 */
-  background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 1%, rgba(255,255,255,0) 90%, rgba(255,255,255,0) 97%); /* FF3.6-15 */
-  background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 1%,rgba(255,255,255,0) 90%,rgba(255,255,255,0) 97%); /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 1%,rgba(255,255,255,0) 90%,rgba(255,255,255,0) 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 }
 
 .mission h2 {
@@ -698,7 +694,7 @@ img {
   text-align: center;
   background-image: linear-gradient(2deg,rgba(0,0,0,.7) 14%,hsla(0,0%,100%,0)), 
   url(../img/experience/experience-background.jpg);
-  width: 98%;
+  width: 100%;
   height: 80vh;
   background-position: 0 0, 50% 100%;
   background-size: auto, cover;
@@ -714,10 +710,11 @@ img {
   font-size: 1.562rem;
   padding: 0 1.875rem;
   margin-bottom: 1.875rem;
+  font-weight: 700;
 }
 
 .experience .copy-two {
-  font-size: 1.7rem;
+  font-size: 1.875rem;
 }
 
 .experience p {
@@ -726,3 +723,50 @@ img {
   line-height: 150%;
   letter-spacing: 1px;
 }
+
+/* Sticky Redes */
+
+.sticky-left-container {
+  width: 100%;
+  height: 3.125rem;
+  position: fixed;
+  background-color: #fff;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+
+/* Back to top */
+
+.footer-container {
+  grid-area: back;
+  width: 100%;
+  height: 9.375rem;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ justify-content: center; 
+}
+
+.back-to-top {
+  height: 10px;
+}
+
+.back-to-top a {
+  color: #fff;
+  font-size: .8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  
+ 
+}
+
