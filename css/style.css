@@ -694,14 +694,11 @@ img {
   text-align: center;
   background-image: linear-gradient(2deg,rgba(0,0,0,.7) 14%,hsla(0,0%,100%,0)), 
   url(../img/experience/experience-background.jpg);
-  width: 100%;
+  width: 97.8%;
   height: 80vh;
   background-position: 0 0, 50% 100%;
   background-size: auto, cover;
   background-attachment: scroll, fixed;
-}
-
-.experience {
   padding: 0 1rem;
 }
 
@@ -709,7 +706,7 @@ img {
   color: #fff;
   font-size: 1.562rem;
   padding: 0 1.875rem;
-  margin-bottom: 1.875rem;
+  margin-bottom: 1.5rem;
   font-weight: 700;
 }
 
@@ -754,19 +751,24 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
- justify-content: center; 
+  justify-content: top;
 }
 
 .back-to-top {
-  height: 10px;
+  margin: 1.5rem 0;
 }
 
-.back-to-top a {
+.back-to-top a, .autor p {
   color: #fff;
   font-size: .8rem;
   text-transform: uppercase;
-  font-weight: 700;
-  
- 
+  font-weight: 600;
+  margin: 1rem;
+  letter-spacing: 1.5px;
 }
+
+.autor p {
+  margin-top: 0;
+}
+
 
