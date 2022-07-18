@@ -855,18 +855,29 @@ img {
   padding: 0 0;
 }
 
-.services-one a,
-.services-two a {
-  margin: 1rem 0 3rem 0;
+/* Mission */
+
+.mission-container {
+  background-position: 0 0, 50% 50%;
+  height: 80vh;
+  padding: 0 7rem;
 }
 
-.services-two img {
-  border-radius: 1.3rem;
-  display: inline-block;
+.mission {
+  height: 100%;
 }
 
-.services-two {
-  margin: 0.5rem 0;
+.mission h2 {
+  font-size: 1rem;
+  margin-bottom: 1.75rem;
 }
+
+.mission h3,
+.bar-promise h3 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+
 
 }
