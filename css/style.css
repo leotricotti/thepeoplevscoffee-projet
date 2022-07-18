@@ -884,6 +884,29 @@ img {
     height: 55vh;
     padding: 2rem 5rem;
   }
+  
+  /* Experience */
+
+.experience-container { 
+  height: 60vh;
+  padding: 0 5rem;
+}
+
+.experience{
+  margin-right: 8.9375rem;
+  margin-bottom: 8.1875rem;
+}
+
+.experience .copy-two {
+  font-size: 1.875rem;
+}
+
+.experience p {
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 150%;
+  letter-spacing: 1px;
+}
 
 
 }
