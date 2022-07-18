@@ -878,6 +878,12 @@ img {
   line-height: 2.5rem;
 }
 
+  /* Promise */
+
+  .bar-promise-container {
+    height: 55vh;
+    padding: 2rem 5rem;
+  }
 
 
 }
