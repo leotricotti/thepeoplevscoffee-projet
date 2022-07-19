@@ -961,18 +961,20 @@ img {
 
   /* Sticky Redes */
 
-.sticky-left-container {
-  width: 7%;
-  height: 15rem;
-  border-left: none;
-  border-right: 2px solid #000;
-  border-bottom: 2px solid #000;
-  border-top-left-radius: .1px;
-  border-bottom-right-radius: 15px;
-  bottom: 30vh;
-  flex-direction: column;
-  justify-content: space-evenly;
+  .sticky-left-container {
+    width: 7%;
+    height: 15rem;
+    border-left: none;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-top-left-radius: .1px;
+    border-bottom-right-radius: 15px;
+    bottom: 30vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
 }
 
-
+@media (min-width: 62rem) {
+  
 }
